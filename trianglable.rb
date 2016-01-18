@@ -11,6 +11,6 @@ class Trianglable
   end
 
   def self.right_trianglable(a, b, c)
-    true
+    trianglable(a,b,c) && a == b && b == c
   end
 end
