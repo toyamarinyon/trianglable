@@ -9,4 +9,8 @@ class Trianglable
   def self.isosceles_trianglable(a, b, c)
     trianglable(a,b,c) && (a==b || b==c || c==a)
   end
+
+  def self.right_trianglable(a, b, c)
+    true
+  end
 end
