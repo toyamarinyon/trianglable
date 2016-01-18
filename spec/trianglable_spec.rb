@@ -20,6 +20,10 @@ describe Trianglable do
   }
   specify {
     expect(Trianglable.right_trianglable(0,0,0)).to eq false
+    expect(Trianglable.right_trianglable(3,4,4)).to eq false
+    expect(Trianglable.right_trianglable(3,4,3)).to eq false
+    expect(Trianglable.right_trianglable(4,4,4)).to eq true
+    expect(Trianglable.right_trianglable(100,100,100)).to eq true
   }
 end
 
