@@ -1,4 +1,4 @@
-class Trianglable
+class Triangle
   def self.trianglable(a, b, c)
     # 三角形の成立条件
     # a+b>c && b+c>a && c+a>b でなければfalse
