@@ -11,5 +11,8 @@ describe Trianglable do
     expect(Trianglable.trianglable(7,3,4)).to eq false
     expect(Trianglable.trianglable(4,7,3)).to eq false
   }
+  specify {
+    expect(Trianglable.isosceles_trianglable(0,0,0)).to eq false
+  }
 end
 
